@@ -1,0 +1,38 @@
+{
+  "name": "e-commerce-store",
+  "version": "1.0.0",
+  "description": "E-commerce store with MERN stack",
+  "main": "server.js",
+  "scripts": {
+    "test": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mednajjar/e-commerce-store.git"
+  },
+  "keywords": [
+    "node",
+    "js",
+    "express",
+    "react",
+    "js",
+    "mongodb"
+  ],
+  "author": "Med-Najjar",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/mednajjar/e-commerce-store/issues"
+  },
+  "homepage": "https://github.com/mednajjar/e-commerce-store#readme",
+  "dependencies": {
+    "bcrypt": "^5.0.1",
+    "cookie-parser": "^1.4.5",
+    "express": "^4.17.1",
+    "joi": "^17.4.0",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^5.12.1"
+  },
+  "devDependencies": {
+    "dotenv": "^8.2.0"
+  }
+}
